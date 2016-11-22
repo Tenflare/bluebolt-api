@@ -18,7 +18,7 @@ api = Api(app)
 _NEWLINE = '\r\n'
 
 
-BLUEBOLT_IP = '192.168.0.23'
+BLUEBOLT_IP = os.getenv("HOST")
 
 TELNET_PORT = 23
 

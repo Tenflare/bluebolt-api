@@ -17,7 +17,7 @@ After downloading, install using setuptools.
 The latest build of this project is also available as a Docker image from Docker Hub
 
     docker build -t bluebolt-api .
-    sudo docker run -d --restart=always -e HOST=<IP OF BLUEBOLT> --name bluebolt-api --net=host bluebolt-api
+    docker run -d --restart=always -e HOST=<IP OF BLUEBOLT> --name bluebolt-api --net=host bluebolt-api
 
 ## Usage
 
