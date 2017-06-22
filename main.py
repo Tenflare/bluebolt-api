@@ -78,8 +78,8 @@ class Cycle(Resource):
 
 # Expose Bluebolt commands directly as API
 api.add_resource(Cycle, '/cycle/<string:outlet>/<string:delay>')
+api.add_resource(OutletStatus, '/switch/status')
 api.add_resource(Switch, '/switch/<string:outlet>/<string:state>')
-api.add_resource(OutletStatus, '/outlet/status')
 
 if __name__ == '__main__':
 
